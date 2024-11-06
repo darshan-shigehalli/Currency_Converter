@@ -68,7 +68,8 @@ async function updateExchangeRate() {
     const convertedAmount = (amount * rate).toFixed(2);
 
     // Display the exchange rate and converted amount
-    exchangeRateMsg.textContent = `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
+    exchangeRateMsg.innerHTML = `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
+    exchangeRateMsg.style.fontWeight = 'bold';
 }
 
 // Add event listeners for user inputs
