@@ -1,12 +1,12 @@
 
-const API_KEY = "21969b1f749520abc7b7186c";  // Your API Key
+const API_KEY = "21969b1f749520abc7b7186c";
 const url = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest/USD`;
 
 const amountInput = document.querySelector('input[type="text"]');
 const fromSelect = document.querySelector('select[name="from"]');
 const toSelect = document.querySelector('select[name="to"]');
 const exchangeRateMsg = document.querySelector('.msg');
-// const convertButton = document.querySelector('button');
+
 
 let currencies = [];
 let exchangeRates = {};
