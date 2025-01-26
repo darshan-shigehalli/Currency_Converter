@@ -18,4 +18,4 @@ This project is built using the following technologies:
 - **Exchange Rate API:** A third-party API to fetch real-time currency exchange rates.
 - **Bootstrap:** For creating a responsive and mobile-friendly front-end.
 
-Feel free to experience the demo : https://github.com/darshan-shigehalli/Currency_Converter
+Feel free to experience the demo :  https://shigehallihegdruprojects.netlify.app/
